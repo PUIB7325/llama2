@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  llama2:
+    image: llama2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
